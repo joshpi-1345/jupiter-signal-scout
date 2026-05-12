@@ -1,0 +1,15 @@
+{
+  "name": "jupiter-signal-scout",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A small Jupiter API scout that cross-checks token metadata, price, and swap-route output for strategy signals.",
+  "scripts": {
+    "scout": "node jupiter-signal-scout.mjs",
+    "demo": "node jupiter-signal-scout.mjs --tokens SOL,JUP,BONK,WIF --amount-usdc 5 --json"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
