@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-05-12T02:13:37.743Z",
+  "apiBase": "https://api.jup.ag",
+  "amountUsdc": 5,
+  "tokenQueries": [
+    "SOL",
+    "JUP",
+    "BONK",
+    "WIF"
+  ],
+  "notes": [
+    "Uses Jupiter Tokens V2, Price V3, and Swap V2 /order in keyless mode.",
+    "No transaction is signed or submitted. Swap /order is called without taker, so transaction is null.",
+    "Keyless mode is intentionally rate-limited, so the script waits between requests."
+  ],
+  "rows": [
+    {
+      "query": "BONK",
+      "symbol": "Bonk",
+      "name": "Bonk",
+      "mint": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+      "tokenPriceUsd": 0.0000074546517763184085,
+      "routeOutAmountUi": 669997.22897,
+      "routeImpliedUsd": 4.9946,
+      "routeVsPricePct": -0.108,
+      "status": "ok",
+      "signal": "route and Price V3 agree closely for this test size",
+      "organicScore": 91.11910339984067,
+      "verified": true
+    },
+    {
+      "query": "JUP",
+      "symbol": "JUP",
+      "name": "Jupiter",
+      "mint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+      "tokenPriceUsd": 0.24599640319663524,
+      "routeOutAmountUi": 20.303713,
+      "routeImpliedUsd": 4.9946,
+      "routeVsPricePct": -0.107,
+      "status": "ok",
+      "signal": "route and Price V3 agree closely for this test size",
+      "organicScore": 99.65108461384693,
+      "verified": true
+    },
+    {
+      "query": "WIF",
+      "symbol": "$WIF",
+      "name": "dogwifhat",
+      "mint": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+      "tokenPriceUsd": 0.22777913041982034,
+      "routeOutAmountUi": 21.931433,
+      "routeImpliedUsd": 4.9955,
+      "routeVsPricePct": -0.09,
+      "status": "ok",
+      "signal": "route and Price V3 agree closely for this test size",
+      "organicScore": 86.99412618603722,
+      "verified": true
+    },
+    {
+      "query": "SOL",
+      "symbol": "SOL",
+      "name": "Wrapped SOL",
+      "mint": "So11111111111111111111111111111111111111112",
+      "tokenPriceUsd": 96.57568855814269,
+      "routeOutAmountUi": 0.05176,
+      "routeImpliedUsd": 4.9987,
+      "routeVsPricePct": -0.025,
+      "status": "ok",
+      "signal": "route and Price V3 agree closely for this test size",
+      "organicScore": 99.27853233549146,
+      "verified": true
+    }
+  ]
+}
